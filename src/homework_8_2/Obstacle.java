@@ -1,8 +1,8 @@
 package homework_8_2;
 
 public class Obstacle {
-    private  Wall wall;
-    private Road road;
+    private final Wall wall;
+    private final Road road;
     public Obstacle(Wall wall, Road road){
         this.road = road;
         this.wall = wall;

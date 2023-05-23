@@ -11,7 +11,7 @@ public class Team {
     private final IOutputProvider outputProvider;
 
     public Team(String teamname) {
-        this.team = new ArrayList<Sportsman>();
+        this.team = new ArrayList<>();
         this.teamname = teamname;
         outputProvider = new DesktopFormOutputProvider(teamname);
     }
